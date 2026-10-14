@@ -1,0 +1,9 @@
+{
+  "component_lgbm.npz": "5f72f289c3dbe8a85904993276340ea22becdc22307f1a0bb2fb192f0644f722",
+  "component_realmlp.npz": "8b75552d0ee5f05b73755f46138cc43913a3ddab234bd8821fcde0ce860faf38",
+  "component_tabm.npz": "1cb7a3ae41f2662e70d36c4b7607f9dfd0d1b42d21a018439c538c1f8d905f61",
+  "component_tabm3022.npz": "7a5ff1dbf1c2acca98c418598117ee5dfa52b88064d9c863c2d21743b8ba6ec5",
+  "component_tabm4022.npz": "6530bff618314097846bd1803c9c8234a58973dbe26deae8f38402cc830db266",
+  "own_champion.npz": "eed7955f4a47a0683088b4b0e4880f041df17ec51d2b6d500cb9d7a5086ea316",
+  "own_teacher.npz": "333eaba13e3bbf2d1734fcd47ab292479a82089161d2dedcc461e9099fe02dab"
+}

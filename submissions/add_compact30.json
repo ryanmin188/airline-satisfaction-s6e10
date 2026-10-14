@@ -1,0 +1,26 @@
+{
+  "metrics": {
+    "auc": 0.9614951671283594,
+    "selection_auc": 0.9611154311940374,
+    "confirmation_auc": 0.9617553297537946,
+    "components": 5.0,
+    "fold_1_gain": 7.889438404296012e-05,
+    "fold_2_gain": 1.760653434146331e-05,
+    "fold_3_gain": 6.020151985886013e-05,
+    "fold_4_gain": 2.3498969139446046e-06,
+    "fold_5_gain": 6.040938102913618e-05
+  },
+  "weights": {
+    "lgbm": 0.1568,
+    "realmlp_v1": 0.2352,
+    "tabm_three_seed": 0.098,
+    "teacher_lgbm": 0.21,
+    "realmlp_compact": 0.3
+  },
+  "public_lb": 0.96114,
+  "external_predictions_used": false,
+  "sha256": "9700c827f0dd1b8d46098b19c9c3de83c123fb6de96d5342b76f98628c3308ca",
+  "selection": "historical folds 1/2; confirm 3/4/5; not independent nested CV",
+  "verified_date": "2026-10-13",
+  "submission_status": "Complete"
+}

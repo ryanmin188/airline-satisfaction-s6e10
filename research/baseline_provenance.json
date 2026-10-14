@@ -1,0 +1,65 @@
+{
+  "external_predictions_allowed": false,
+  "models": [
+    {
+      "component": "lgbm",
+      "own_training": true,
+      "original_oof": "D:\\kaggle\\airline\\conditional_te_experiment\\conditional_te_lgbm_oof.csv",
+      "original_test": "D:\\kaggle\\airline\\conditional_te_experiment\\conditional_te_lgbm_test.csv",
+      "oof_sha256": "887bc36b10ce12ab45da143ca456b4c23a2b32a601917460aa12a67107c03c74",
+      "test_sha256": "e5496050bbf188df5a9f4187c5dccf33177c7d2729f0733d62b5463b6604c0f4",
+      "training_source": "code/historical/feature_5_conditional_frequency.py",
+      "source_sha256": "2dc8b6d8c56c48c98c4f8a8a60ca39014fc667b79e6a7cf264961a531edb150a"
+    },
+    {
+      "component": "realmlp",
+      "own_training": true,
+      "original_oof": "D:\\kaggle\\airline\\lean_realmlp_blend\\lean_realmlp_oof.csv",
+      "original_test": "D:\\kaggle\\airline\\lean_realmlp_blend\\lean_realmlp_test.csv",
+      "oof_sha256": "a393daede291e22afeb2bcf24b5d8609a03e1d9659645ea5808934edc4f373e0",
+      "test_sha256": "bb101a85481be887f67922c5547d0e8b7e051aaa259319e97185a2902eff93f0",
+      "training_source": "code/historical/mlp_lean_1.py",
+      "source_sha256": "136f314d438ede8bcaf0115d9be54235c4e8e1c33bad6e50f275a9b3309d4f00"
+    },
+    {
+      "component": "tabm",
+      "own_training": true,
+      "original_oof": "D:\\kaggle\\airline\\tabm_m3_full_oof\\tabm_m3_oof.csv",
+      "original_test": "D:\\kaggle\\airline\\tabm_m3_full_oof\\tabm_m3_test_predictions.csv",
+      "oof_sha256": "d607d95feca7789d30babb81b60ede056bb9c9698002ba3195863dc214c38550",
+      "test_sha256": "0e5f74646d19c2de1d1b9f76593613695814224f5651719b5abe05b7023bd4c2",
+      "training_source": "code/historical/tabm_m3_full_oof.py",
+      "source_sha256": "f7687c79fa8f9e78fcb7a91439765db3d0bccfd1a739ddb2ace1bf8f221d64e6"
+    },
+    {
+      "component": "tabm3022",
+      "own_training": true,
+      "original_oof": "D:\\kaggle\\airline\\tabm_m3_multiseed\\seed_3022\\tabm_m3_oof.csv",
+      "original_test": "D:\\kaggle\\airline\\tabm_m3_multiseed\\seed_3022\\tabm_m3_test_predictions.csv",
+      "oof_sha256": "35c449dc49856983649fb106721bcd1222c7a1d27604fb8ac438888c0b014433",
+      "test_sha256": "e4435dbf006c33f2d2172b25bf46544c10597302ff9c2e17763d1cb19f4585ae",
+      "training_source": "code/historical/tabm_m3_multiseed.py",
+      "source_sha256": "467df871791950c706123f706284c2ef32c634a4ada8be0fa5e0dd204e98fada"
+    },
+    {
+      "component": "tabm4022",
+      "own_training": true,
+      "original_oof": "D:\\kaggle\\airline\\tabm_m3_multiseed\\seed_4022\\tabm_m3_oof.csv",
+      "original_test": "D:\\kaggle\\airline\\tabm_m3_multiseed\\seed_4022\\tabm_m3_test_predictions.csv",
+      "oof_sha256": "408738d83441e40608ab2a358214099b6aa062076f07498b6ddc3e63d2db0cb1",
+      "test_sha256": "6263ac01c3af2f51ab4c5973b2b9d6c1e3879278192f56f540c8ffe2e6687453",
+      "training_source": "code/historical/tabm_m3_multiseed.py",
+      "source_sha256": "467df871791950c706123f706284c2ef32c634a4ada8be0fa5e0dd204e98fada"
+    },
+    {
+      "component": "teacher_lgbm",
+      "own_training": true,
+      "original_oof": "D:\\kaggle\\airline\\push_0961\\experiments\\teacher_lgbm\\oof.csv",
+      "original_test": "D:\\kaggle\\airline\\push_0961\\experiments\\teacher_lgbm\\test.csv",
+      "oof_sha256": "683fb6932b4043e07a604361a31e75b5431b8dac970b3ea5814e87962ec76aad",
+      "test_sha256": "e96c9127ff5d76aba1e39f90a1b47df0433d99909beaa8d6e73761b510ab6685",
+      "training_source": "code/train_teacher_lgbm.py",
+      "source_sha256": "189ccf80d38f89e2d32d2331aae5af7b4e5c6d573e7601de1a6423ac9b88bb41"
+    }
+  ]
+}

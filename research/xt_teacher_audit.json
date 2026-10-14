@@ -1,0 +1,8 @@
+{
+  "original_rows": 129880,
+  "excluded_near_duplicates": 465,
+  "remaining": 129415,
+  "match": "all ratings/categories identical, abs age<=1, distance<=10, each delay<=5; missing delay filled -1",
+  "source": "https://www.kaggle.com/datasets/arseniyshutko/binary-aviation-satisfaction-129k",
+  "source_sha256": "2ad76465f6115f93d16121891a6b1235acb8007a4ab065cae0dc46b60ad116e3"
+}

@@ -1,0 +1,38 @@
+{
+  "train_rows": 699635,
+  "test_rows": 299844,
+  "feature_count": 21,
+  "positive_rate": 0.44357272006117476,
+  "missing_train": {
+    "Arrival Delay in Minutes": 292
+  },
+  "missing_test": {
+    "Arrival Delay in Minutes": 130
+  },
+  "duplicate_features": 0,
+  "columns": [
+    "id",
+    "Age",
+    "Flight Distance",
+    "Inflight wifi service",
+    "Departure/Arrival time convenient",
+    "Ease of Online booking",
+    "Gate location",
+    "Food and drink",
+    "Online boarding",
+    "Seat comfort",
+    "Inflight entertainment",
+    "On-board service",
+    "Leg room service",
+    "Baggage handling",
+    "Checkin service",
+    "Cleanliness",
+    "Departure Delay in Minutes",
+    "Arrival Delay in Minutes",
+    "Gender",
+    "Customer Type",
+    "Type of Travel",
+    "Class",
+    "satisfaction"
+  ]
+}

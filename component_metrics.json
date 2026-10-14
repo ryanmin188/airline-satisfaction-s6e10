@@ -1,0 +1,10 @@
+{
+  "component_lgbm": 0.9606643061005332,
+  "component_realmlp": 0.9609087115308723,
+  "component_tabm": 0.9601910072266066,
+  "component_tabm3022": 0.9601215787940377,
+  "component_tabm4022": 0.9603374775557914,
+  "own_champion": 0.9613473419573187,
+  "own_teacher": 0.9608907337979123,
+  "realmlp_compact_s33": 0.9611721452908095
+}

@@ -1,0 +1,13 @@
+__pycache__/
+cache/
+.venv/
+data/*.csv
+submissions/reproduced.csv
+upload_*.json
+*.tmp
+tmp/
+retraining/
+docs/
+output/
+src/build_handbook.py
+requirements-pdf.txt
